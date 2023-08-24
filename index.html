@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the project -->
+    <title>Stopwatch Document</title>
+    <!-- For linking css file -->
+    <link rel="stylesheet" href="stopwatch.css" />
+  </head>
+  <body>
+    <!-- creating a container div in which all code is written  -->
+    <div id="container"> 
+      
+      <!-- stopwatch heading -->
+      <h1 id="heading">My Stopwatch</h1>
+      <!--Creating stopwatch timer -->
+      
+      <div id="watch">
+        
+        <div id="timerDisplay">
+          <span class="digit" id="hourr">00</span>
+          <span class="dot">:</span>
+          <span class="digit" id="minutee">00</span>
+          <span class="dot">:</span>
+          <span class="digit" id="secondd">00</span>
+        </div>
+
+        <!-- buttons for controling stopwatch -->
+        <div id="buttons">
+          <button class="btn" id="start">Start</button>
+          <button class="btn" id="stop">Stop</button>
+          <button class="btn" id="reset">Reset</button>
+        </div>
+      
+      </div>
+    
+    </div>
+    <!--  For linking js file -->
+    <script src="stopwatch.js"></script>
+  </body>
+</html>
